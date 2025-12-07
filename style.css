@@ -1,0 +1,43 @@
+
+body{
+    margin: 0%;
+ 
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    grid-template-rows: 100px 50px auto;
+}
+
+.name {
+    grid-area: 1/1/1/-1;
+}
+
+.subname {
+    grid-area: 2/1/3/2;
+}
+
+.aboutme {
+    grid-area: 3/1/4/2;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    grid-area: 2/2/4/-1;
+ 
+}
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
